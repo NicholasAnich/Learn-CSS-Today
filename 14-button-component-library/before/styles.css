@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 90%);
+  border: 1px solid #B3B3B3;
+  outline: none;
+  cursor: pointer;
+  padding: .5em 1em;
+  border-radius: .3em;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 80%);
+}
