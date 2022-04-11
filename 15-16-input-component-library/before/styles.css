@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+
+.text {
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.text.text-default:focus {
+  outline: none;
+  border: 1px solid hsl(200, 100%, 50%);
+  box-shadow:0 0 5px hsl(200, 100%, 50%);
+}
+
+.text.text-success {
+  border-color: hsl(120, 100%, 40%);
+}
+
+.text.text-success:focus {
+  outline: none;
+  border: 1px solid hsl(120, 100%, 40%);
+  box-shadow:0 0 5px hsl(120, 100%, 40%);
+}
+
+.text.text-error {
+  border-color: hsl(0, 100%, 50%);
+}
+
+.text.text-error:focus {
+  outline: none;
+  border: 1px solid hsl(0, 100%, 50%);
+  box-shadow:0 0 5px hsl(0, 100%, 50%);
+}
+
+.text.text-large {
+  font-size: 1.2rem;
+}
+
+.text.text-small {
+  font-size: .7rem;
+}
+
+.text.text-disabled {
+  background-color: lightgrey;
+}
