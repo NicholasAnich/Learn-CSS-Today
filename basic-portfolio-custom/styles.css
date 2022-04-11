@@ -50,3 +50,49 @@ body {
 .project-list-item:last-child {
   margin-bottom: 0;
 }
+
+.contact-section {
+  margin: 2rem 0;
+}
+
+.input {
+  border: 1px solid #AAA;
+  outline: none;
+  padding: .5em;
+  font-size: 1rem;
+  border-radius: .2em;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.input:focus {
+  border-color: #069;
+  box-shadow: 0 0 5px 0 #069;
+}
+
+.input-no-resize {
+  resize: none;
+}
+
+.btn {
+  background-color: hsl(200, 100%, 30%);
+  border: 1px solid hsl(200, 100%, 10%);
+  border-radius: .3em;
+  cursor: pointer;
+  padding: .5em 1em;
+  outline: none;
+  color: white;
+}
+
+.btn:hover, .btn:focus {
+background-color: hsl(200, 100%, 20%);
+box-shadow: 0 0 5px 0 hsl(200, 100%, 10%);
+}
+
+.footer {
+  background-color: #069;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  text-align: center;
+}
