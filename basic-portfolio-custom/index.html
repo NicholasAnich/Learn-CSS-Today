@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <header>
-    <h1>Nicholas Anich</h1>
+  <header class="header">
+    <h1 class="header-title">Nicholas Anich</h1>
   </header>
   <main>
-    <section>
+    <section class="section">
       <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe, aperiam eligendi molestiae rerum
+      <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe, aperiam eligendi molestiae rerum
         ipsam, eveniet dolorum nesciunt id obcaecati consectetur, ex corrupti reprehenderit omnis atque sapiente
         suscipit laborum nemo minus quidem iusto! Saepe in qui, vero alias rem, mollitia, magni eum incidunt consequatur
         obcaecati molestias sunt placeat perferendis. Ipsa velit debitis consequuntur dolorem asperiores maiores dolor
@@ -25,9 +25,9 @@
         Incidunt ullam eos deserunt placeat voluptate facilis harum est. Architecto itaque fugit earum quas recusandae
         amet?</p>
     </section>
-    <section>
+    <section class="section section-accent">
       <h2>Skills</h2>
-      <ul>
+      <ul class="section-content skills-section">
         <li>Javascript</li>
         <li>React</li>
         <li>Typescript</li>
@@ -37,24 +37,24 @@
         <li>Express</li>
       </ul>
     </section>
-    <section>
+    <section class="section">
       <h2>Projects</h2>
-      <ul>
-        <li>
+      <ul class="section-content project-section">
+        <li class="project-list-item">
           <img src="https://source.unsplash.com/xfngap_DToE/150x150" alt="mountain picture">
           <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, maxime consequatur dolores qui magnam
             quaerat consectetur quas mollitia vero in.</div>
         </li>
-        <li>
+        <li class="project-list-item">
           <img src="https://source.unsplash.com/HeEJU3nrg_0/150x150" alt="waterfall">
           <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda fuga tempora aliquam ipsam sit quia
             omnis recusandae odit accusamus excepturi?</div>
         </li>
       </ul>
     </section>
-    <section>
+    <section class="section">
       <h2>Contact Me</h2>
-      <form>
+      <form class="section-content">
         <div>
           <label>Name</label>
           <input type="text">
@@ -65,8 +65,9 @@
         </div>
         <div>
           <label>Message</label>
-          <textarea></textarea>
         </div>
+          <textarea></textarea>
+          <button type="submit">Send</button>
       </form>
     </section>
   </main>
