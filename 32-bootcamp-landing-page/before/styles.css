@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria;
   color: #1B2522;
 }
 
@@ -92,4 +92,96 @@ body {
   position: absolute;
   bottom: 1rem;
   width: 30px;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 450px));
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 50px;
+}
+
+.curriculum-grid-item {
+  display: flex;
+  align-items: center;
+}
+
+.curriculum-grid-item img {
+  width: 50px;
+  margin: 1rem;
+}
+
+.section-accent {
+  background-color: #0AF;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-title {
+  color: white;
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.free-sub-title {
+  color: white;
+  max-width: 300px;
+}
+
+.form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form label {
+  color: black;
+  font-weight: bold;
+}
+
+.form input,
+.form textarea{
+  width: 100%;
+  margin-top: .25rem;
+  margin-bottom: .75rem;
+  outline: none;
+  border: 1px solid #1B2522;
+  border-radius: .3em;
+  padding: .5em;
+  color: inherit;
+  font-family: inherit;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 75px;
+  max-height: 200px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #0AF;
+}
+
+.btn-container {
+  text-align: end;
+}
+
+.btn-square {
+  border-radius: .3em;
 }
